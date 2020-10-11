@@ -29,7 +29,7 @@ const ViewNotOverlappingSessionScreen = ({}) => {
                   </Button>
                 </div>
                 <Card.Body key={index}>
-                  <h5>Consecutive Session {index + 1} </h5>
+                  <h5>Not Overlapping Session {index + 1} </h5>
                   {session.sessions.map((item, index) => (
                     <div>
                       <Col column sm="12">
